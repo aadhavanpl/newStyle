@@ -1,0 +1,18 @@
+.btn {
+    width: max-content;
+    display: inline-block;
+    padding: 0.4rem 0.3rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    color: white;
+    border: 1px solid red;
+    width: 60px;
+    text-decoration: none;
+    text-align: center;
+    font-size: smaller;
+}
+
+
+.btn:hover {
+    background: blue;
+}
