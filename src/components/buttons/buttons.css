@@ -4,12 +4,14 @@
     padding: 0.4rem 0.3rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    color: white;
-    border: 1px solid red;
+    color: black;
+    border: 1px solid green;
     width: 60px;
     text-decoration: none;
     text-align: center;
     font-size: smaller;
+    font-weight: bold;
+    background-color: transparent;
 }
 
 

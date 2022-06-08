@@ -1,297 +1,441 @@
 import React from 'react'
 import "./buttons.css"
 import check from "../../functions/check"
+import userAns from "../../functions/userAns"
+import randomWords from '../../functions/random'
+
+export var usersAns = {value: ""}
+export var finalAns = {value: randomWords()}
 
 const Buttons = () => {
   return (
-    <buttons>
-        <div>
-            <a href='#' className='btn' onClick={check}>ஃ</a>
-            <a href='#' className='btn'>அ</a>
-            <a href='#' className='btn'>ஆ</a>
-            <a href='#' className='btn'>இ</a>
-            <a href='#' className='btn'>ஈ</a>
-            <a href='#' className='btn'>உ</a>
-            <a href='#' className='btn'>ஊ</a>
-            <a href='#' className='btn'>எ</a>
-            <a href='#' className='btn'>ஏ</a>
-            <a href='#' className='btn'>ஐ</a>
-            <a href='#' className='btn'>ஒ</a>
-            <a href='#' className='btn'>ஓ</a>
-            <a href='#' className='btn'>ஔ</a>
+    <div className='allButtons'>
+        <div className='rows'>
+            <button className='btn' onClick={() => {userAns('ஃ')}}>ஃ</button>
+            <button className='btn' onClick={() => {userAns('அ')}}>அ</button>
+            <button className='btn' onClick={() => {userAns('ஆ')}}>ஆ</button>
+            <button className='btn' onClick={() => {userAns('இ')}}>இ</button>
+            <button className='btn' onClick={() => {userAns('ஈ')}}>ஈ</button>
+            <button className='btn' onClick={() => {userAns('உ')}}>உ</button>
+            <button className='btn' onClick={() => {userAns('ஊ')}}>ஊ</button>
+            <button className='btn' onClick={() => {userAns('எ')}}>எ</button>
+            <button className='btn' onClick={() => {userAns('ஏ')}}>ஏ</button>
+            <button className='btn' onClick={() => {userAns('ஐ')}}>ஐ</button>
+            <button className='btn' onClick={() => {userAns('ஒ')}}>ஒ</button>
+            <button className='btn' onClick={() => {userAns('ஓ')}}>ஓ</button>
+            <button className='btn' onClick={() => {userAns('ஔ')}}>ஔ</button>
+        </div>
+        <div className='rows'>
+            <button className='btn' onClick={() => {userAns('க்')}}>க்</button>
+            <button className='btn' onClick={() => {userAns('க')}}>க</button>
+            <button className='btn' onClick={() => {userAns('கா')}}>கா</button>
+            <button className='btn' onClick={() => {userAns('கி')}}>கி</button>
+            <button className='btn' onClick={() => {userAns('கீ')}}>கீ</button>
+            <button className='btn' onClick={() => {userAns('கு')}}>கு</button>
+            <button className='btn' onClick={() => {userAns('கூ')}}>கூ</button>
+            <button className='btn' onClick={() => {userAns('கெ')}}>கெ</button>
+            <button className='btn' onClick={() => {userAns('கே')}}>கே</button>
+            <button className='btn' onClick={() => {userAns('கை')}}>கை</button>
+            <button className='btn' onClick={() => {userAns('கொ')}}>கொ</button>
+            <button className='btn' onClick={() => {userAns('கோ')}}>கோ</button>
+            <button className='btn' onClick={() => {userAns('கௌ')}}>கௌ</button>
+        </div>
+        <div className='rows'>
+            <button className='btn' onClick={() => {userAns('ங்')}}>ங்</button>
+            <button className='btn' onClick={() => {userAns('ங')}}>ங</button>
+            <button className='btn' onClick={() => {userAns('ஙா')}}>ஙா</button>
+            <button className='btn' onClick={() => {userAns('ஙி')}}>ஙி</button>
+            <button className='btn' onClick={() => {userAns('ஙீ')}}>ஙீ</button>
+            <button className='btn' onClick={() => {userAns('ஙு')}}>ஙு</button>
+            <button className='btn' onClick={() => {userAns('ஙூ')}}>ஙூ</button>
+            <button className='btn' onClick={() => {userAns('ஙெ')}}>ஙெ</button>
+            <button className='btn' onClick={() => {userAns('ஙே')}}>ஙே</button>
+            <button className='btn' onClick={() => {userAns('ஙை')}}>ஙை</button>
+            <button className='btn' onClick={() => {userAns('ஙொ')}}>ஙொ</button>
+            <button className='btn' onClick={() => {userAns('ஙோ')}}>ஙோ</button>
+            <button className='btn' onClick={() => {userAns('ஙௌ')}}>ஙௌ</button>
+        </div>
+        <div className='rows'>
+            <button className='btn' onClick={() => {userAns('ச்')}}>ச்</button>
+            <button className='btn' onClick={() => {userAns('ச')}}>ச</button>
+            <button className='btn' onClick={() => {userAns('சா')}}>சா</button>
+            <button className='btn' onClick={() => {userAns('சி')}}>சி</button>
+            <button className='btn' onClick={() => {userAns('சீ')}}>சீ</button>
+            <button className='btn' onClick={() => {userAns('சு')}}>சு</button>
+            <button className='btn' onClick={() => {userAns('சூ')}}>சூ</button>
+            <button className='btn' onClick={() => {userAns('செ')}}>செ</button>
+            <button className='btn' onClick={() => {userAns('சே')}}>சே</button>
+            <button className='btn' onClick={() => {userAns('சை')}}>சை</button>
+            <button className='btn' onClick={() => {userAns('சொ')}}>சொ</button>
+            <button className='btn' onClick={() => {userAns('சோ')}}>சோ</button>
+            <button className='btn' onClick={() => {userAns('சௌ')}}>சௌ</button>
+        </div>
+        <div className='rows'>
+            <button className='btn' onClick={() => {userAns('ஞ்')}}>ஞ்</button>
+            <button className='btn' onClick={() => {userAns('ஞ')}}>ஞ</button>
+            <button className='btn' onClick={() => {userAns('ஞா')}}>ஞா</button>
+            <button className='btn' onClick={() => {userAns('ஞி')}}>ஞி</button>
+            <button className='btn' onClick={() => {userAns('ஞீ')}}>ஞீ</button>
+            <button className='btn' onClick={() => {userAns('ஞு')}}>ஞு</button>
+            <button className='btn' onClick={() => {userAns('ஞூ')}}>ஞூ</button>
+            <button className='btn' onClick={() => {userAns('ஞெ')}}>ஞெ</button>
+            <button className='btn' onClick={() => {userAns('ஞே')}}>ஞே</button>
+            <button className='btn' onClick={() => {userAns('ஞை')}}>ஞை</button>
+            <button className='btn' onClick={() => {userAns('ஞொ')}}>ஞொ</button>
+            <button className='btn' onClick={() => {userAns('ஞோ')}}>ஞோ</button>
+            <button className='btn' onClick={() => {userAns('ஞௌ')}}>ஞௌ</button>
+        </div>
+        <div className='rows'>
+            <button className='btn' onClick={() => {userAns('ட்')}}>ட்</button>
+            <button className='btn' onClick={() => {userAns('ட')}}>ட</button>
+            <button className='btn' onClick={() => {userAns('டா')}}>டா</button>
+            <button className='btn' onClick={() => {userAns('டி')}}>டி</button>
+            <button className='btn' onClick={() => {userAns('டீ')}}>டீ</button>
+            <button className='btn' onClick={() => {userAns('டு')}}>டு</button>
+            <button className='btn' onClick={() => {userAns('டூ')}}>டூ</button>
+            <button className='btn' onClick={() => {userAns('டெ')}}>டெ</button>
+            <button className='btn' onClick={() => {userAns('டே')}}>டே</button>
+            <button className='btn' onClick={() => {userAns('டை')}}>டை</button>
+            <button className='btn' onClick={() => {userAns('டொ')}}>டொ</button>
+            <button className='btn' onClick={() => {userAns('டோ')}}>டோ</button>
+            <button className='btn' onClick={() => {userAns('டௌ')}}>டௌ</button>
+        </div>
+        <div className='rows'>
+            <button className='btn' onClick={() => {userAns('ண்')}}>ண்</button>
+            <button className='btn' onClick={() => {userAns('ண')}}>ண</button>
+            <button className='btn' onClick={() => {userAns('ணா')}}>ணா</button>
+            <button className='btn' onClick={() => {userAns('ணி')}}>ணி</button>
+            <button className='btn' onClick={() => {userAns('ணீ')}}>ணீ</button>
+            <button className='btn' onClick={() => {userAns('ணு')}}>ணு</button>
+            <button className='btn' onClick={() => {userAns('ணூ')}}>ணூ</button>
+            <button className='btn' onClick={() => {userAns('ணெ')}}>ணெ</button>
+            <button className='btn' onClick={() => {userAns('ணே')}}>ணே</button>
+            <button className='btn' onClick={() => {userAns('ணை')}}>ணை</button>
+            <button className='btn' onClick={() => {userAns('ணொ')}}>ணொ</button>
+            <button className='btn' onClick={() => {userAns('ணோ')}}>ணோ</button>
+            <button className='btn' onClick={() => {userAns('ணௌ')}}>ணௌ</button>
         </div>
         <div>
-            <a href='#' className='btn'>க்</a>
-            <a href='#' className='btn'>க</a>
-            <a href='#' className='btn'>கா</a>
-            <a href='#' className='btn'>கி</a>
-            <a href='#' className='btn'>கீ</a>
-            <a href='#' className='btn'>கு</a>
-            <a href='#' className='btn'>கூ</a>
-            <a href='#' className='btn'>கெ</a>
-            <a href='#' className='btn'>கே</a>
-            <a href='#' className='btn'>கை</a>
-            <a href='#' className='btn'>கொ</a>
-            <a href='#' className='btn'>கோ</a>
-            <a href='#' className='btn'>கௌ</a>
+            <button className='btn' onClick={() => {userAns('த்')}}>த்</button>
+            <button className='btn' onClick={() => {userAns('த')}}>த</button>
+            <button className='btn' onClick={() => {userAns('தா')}}>தா</button>
+            <button className='btn' onClick={() => {userAns('தி')}}>தி</button>
+            <button className='btn' onClick={() => {userAns('தீ')}}>தீ</button>
+            <button className='btn' onClick={() => {userAns('து')}}>து</button>
+            <button className='btn' onClick={() => {userAns('தூ')}}>தூ</button>
+            <button className='btn' onClick={() => {userAns('தெ')}}>தெ</button>
+            <button className='btn' onClick={() => {userAns('தே')}}>தே</button>
+            <button className='btn' onClick={() => {userAns('தை')}}>தை</button>
+            <button className='btn' onClick={() => {userAns('தொ')}}>தொ</button>
+            <button className='btn' onClick={() => {userAns('தோ')}}>தோ</button>
+            <button className='btn' onClick={() => {userAns('தௌ')}}>தௌ</button>
         </div>
         <div>
-            <a href='#' className='btn'>ங்</a>
-            <a href='#' className='btn'>ங</a>
-            <a href='#' className='btn'>ஙா</a>
-            <a href='#' className='btn'>ஙி</a>
-            <a href='#' className='btn'>ஙீ</a>
-            <a href='#' className='btn'>ஙு</a>
-            <a href='#' className='btn'>ஙூ</a>
-            <a href='#' className='btn'>ஙெ</a>
-            <a href='#' className='btn'>ஙே</a>
-            <a href='#' className='btn'>ஙை</a>
-            <a href='#' className='btn'>ஙொ</a>
-            <a href='#' className='btn'>ஙோ</a>
-            <a href='#' className='btn'>ஙௌ</a>
+            <button className='btn' onClick={() => {userAns('ந்')}}>ந்</button>
+            <button className='btn' onClick={() => {userAns('ந')}}>ந</button>
+            <button className='btn' onClick={() => {userAns('நா')}}>நா</button>
+            <button className='btn' onClick={() => {userAns('நி')}}>நி</button>
+            <button className='btn' onClick={() => {userAns('நீ')}}>நீ</button>
+            <button className='btn' onClick={() => {userAns('நு')}}>நு</button>
+            <button className='btn' onClick={() => {userAns('நூ')}}>நூ</button>
+            <button className='btn' onClick={() => {userAns('நெ')}}>நெ</button>
+            <button className='btn' onClick={() => {userAns('நே')}}>நே</button>
+            <button className='btn' onClick={() => {userAns('நை')}}>நை</button>
+            <button className='btn' onClick={() => {userAns('நொ')}}>நொ</button>
+            <button className='btn' onClick={() => {userAns('நோ')}}>நோ</button>
+            <button className='btn' onClick={() => {userAns('நௌ')}}>நௌ</button>
         </div>
         <div>
-            <a href='#' className='btn'>ச்</a>
-            <a href='#' className='btn'>ச</a>
-            <a href='#' className='btn'>சா</a>
-            <a href='#' className='btn'>சி</a>
-            <a href='#' className='btn'>சீ</a>
-            <a href='#' className='btn'>சு</a>
-            <a href='#' className='btn'>சூ</a>
-            <a href='#' className='btn'>செ</a>
-            <a href='#' className='btn'>சே</a>
-            <a href='#' className='btn'>சை</a>
-            <a href='#' className='btn'>சொ</a>
-            <a href='#' className='btn'>சோ</a>
-            <a href='#' className='btn'>சௌ</a>
+            <button className='btn' onClick={() => {userAns('ப்')}}>ப்</button>
+            <button className='btn' onClick={() => {userAns('ப')}}>ப</button>
+            <button className='btn' onClick={() => {userAns('பா')}}>பா</button>
+            <button className='btn' onClick={() => {userAns('பி')}}>பி</button>
+            <button className='btn' onClick={() => {userAns('பீ')}}>பீ</button>
+            <button className='btn' onClick={() => {userAns('பு')}}>பு</button>
+            <button className='btn' onClick={() => {userAns('பூ')}}>பூ</button>
+            <button className='btn' onClick={() => {userAns('பெ')}}>பெ</button>
+            <button className='btn' onClick={() => {userAns('பே')}}>பே</button>
+            <button className='btn' onClick={() => {userAns('பை')}}>பை</button>
+            <button className='btn' onClick={() => {userAns('பொ')}}>பொ</button>
+            <button className='btn' onClick={() => {userAns('போ')}}>போ</button>
+            <button className='btn' onClick={() => {userAns('பௌ')}}>பௌ</button>
         </div>
         <div>
-            <a href='#' className='btn'>ஞ்</a>
-            <a href='#' className='btn'>ஞ</a>
-            <a href='#' className='btn'>ஞா</a>
-            <a href='#' className='btn'>ஞி</a>
-            <a href='#' className='btn'>ஞீ</a>
-            <a href='#' className='btn'>ஞு</a>
-            <a href='#' className='btn'>ஞூ</a>
-            <a href='#' className='btn'>ஞெ</a>
-            <a href='#' className='btn'>ஞே</a>
-            <a href='#' className='btn'>ஞை</a>
-            <a href='#' className='btn'>ஞொ</a>
-            <a href='#' className='btn'>ஞோ</a>
-            <a href='#' className='btn'>ஞௌ</a>
+            <button className='btn' onClick={() => {userAns('ம்')}}>ம்</button>
+            <button className='btn' onClick={() => {userAns('ம')}}>ம</button>
+            <button className='btn' onClick={() => {userAns('மா')}}>மா</button>
+            <button className='btn' onClick={() => {userAns('மி')}}>மி</button>
+            <button className='btn' onClick={() => {userAns('மீ')}}>மீ</button>
+            <button className='btn' onClick={() => {userAns('மு')}}>மு</button>
+            <button className='btn' onClick={() => {userAns('மூ')}}>மூ</button>
+            <button className='btn' onClick={() => {userAns('மெ')}}>மெ</button>
+            <button className='btn' onClick={() => {userAns('மே')}}>மே</button>
+            <button className='btn' onClick={() => {userAns('மை')}}>மை</button>
+            <button className='btn' onClick={() => {userAns('மொ')}}>மொ</button>
+            <button className='btn' onClick={() => {userAns('மோ')}}>மோ</button>
+            <button className='btn' onClick={() => {userAns('மௌ')}}>மௌ</button>
         </div>
         <div>
-            <a href='#' className='btn'>ட்</a>
-            <a href='#' className='btn'>ட</a>
-            <a href='#' className='btn'>டா</a>
-            <a href='#' className='btn'>டி</a>
-            <a href='#' className='btn'>டீ</a>
-            <a href='#' className='btn'>டு</a>
-            <a href='#' className='btn'>டூ</a>
-            <a href='#' className='btn'>டெ</a>
-            <a href='#' className='btn'>டே</a>
-            <a href='#' className='btn'>டை</a>
-            <a href='#' className='btn'>டொ</a>
-            <a href='#' className='btn'>டோ</a>
-            <a href='#' className='btn'>டௌ</a>
+            <button className='btn' onClick={() => {userAns('ய்')}}>ய்</button>
+            <button className='btn' onClick={() => {userAns('ய')}}>ய</button>
+            <button className='btn' onClick={() => {userAns('யா')}}>யா</button>
+            <button className='btn' onClick={() => {userAns('யி')}}>யி</button>
+            <button className='btn' onClick={() => {userAns('யீ')}}>யீ</button>
+            <button className='btn' onClick={() => {userAns('யு')}}>யு</button>
+            <button className='btn' onClick={() => {userAns('யூ')}}>யூ</button>
+            <button className='btn' onClick={() => {userAns('யெ')}}>யெ</button>
+            <button className='btn' onClick={() => {userAns('யே')}}>யே</button>
+            <button className='btn' onClick={() => {userAns('யை')}}>யை</button>
+            <button className='btn' onClick={() => {userAns('யொ')}}>யொ</button>
+            <button className='btn' onClick={() => {userAns('யோ')}}>யோ</button>
+            <button className='btn' onClick={() => {userAns('யௌ')}}>யௌ</button>
         </div>
         <div>
-            <a href='#' className='btn'>ண்</a>
-            <a href='#' className='btn'>ண</a>
-            <a href='#' className='btn'>ணா</a>
-            <a href='#' className='btn'>ணி</a>
-            <a href='#' className='btn'>ணீ</a>
-            <a href='#' className='btn'>ணு</a>
-            <a href='#' className='btn'>ணூ</a>
-            <a href='#' className='btn'>ணெ</a>
-            <a href='#' className='btn'>ணே</a>
-            <a href='#' className='btn'>ணை</a>
-            <a href='#' className='btn'>ணொ</a>
-            <a href='#' className='btn'>ணோ</a>
-            <a href='#' className='btn'>ணௌ</a>
+            <button className='btn' onClick={() => {userAns('ர்')}}>ர்</button>
+            <button className='btn' onClick={() => {userAns('ர')}}>ர</button>
+            <button className='btn' onClick={() => {userAns('ரா')}}>ரா</button>
+            <button className='btn' onClick={() => {userAns('ரி')}}>ரி</button>
+            <button className='btn' onClick={() => {userAns('ரீ')}}>ரீ</button>
+            <button className='btn' onClick={() => {userAns('ரு')}}>ரு</button>
+            <button className='btn' onClick={() => {userAns('ரூ')}}>ரூ</button>
+            <button className='btn' onClick={() => {userAns('ரெ')}}>ரெ</button>
+            <button className='btn' onClick={() => {userAns('ரே')}}>ரே</button>
+            <button className='btn' onClick={() => {userAns('ரை')}}>ரை</button>
+            <button className='btn' onClick={() => {userAns('ரொ')}}>ரொ</button>
+            <button className='btn' onClick={() => {userAns('ரோ')}}>ரோ</button>
+            <button className='btn' onClick={() => {userAns('ரௌ')}}>ரௌ</button>
         </div>
         <div>
-            <a href='#' className='btn'>த்</a>
-            <a href='#' className='btn'>த</a>
-            <a href='#' className='btn'>தா</a>
-            <a href='#' className='btn'>தி</a>
-            <a href='#' className='btn'>தீ</a>
-            <a href='#' className='btn'>து</a>
-            <a href='#' className='btn'>தூ</a>
-            <a href='#' className='btn'>தெ</a>
-            <a href='#' className='btn'>தே</a>
-            <a href='#' className='btn'>தை</a>
-            <a href='#' className='btn'>தொ</a>
-            <a href='#' className='btn'>தோ</a>
-            <a href='#' className='btn'>தௌ</a>
+            <button className='btn' onClick={() => {userAns('ல்')}}>ல்</button>
+            <button className='btn' onClick={() => {userAns('ல')}}>ல</button>
+            <button className='btn' onClick={() => {userAns('லா')}}>லா</button>
+            <button className='btn' onClick={() => {userAns('லி')}}>லி</button>
+            <button className='btn' onClick={() => {userAns('லீ')}}>லீ</button>
+            <button className='btn' onClick={() => {userAns('லு')}}>லு</button>
+            <button className='btn' onClick={() => {userAns('லூ')}}>லூ</button>
+            <button className='btn' onClick={() => {userAns('லெ')}}>லெ</button>
+            <button className='btn' onClick={() => {userAns('லே')}}>லே</button>
+            <button className='btn' onClick={() => {userAns('லை')}}>லை</button>
+            <button className='btn' onClick={() => {userAns('லொ')}}>லொ</button>
+            <button className='btn' onClick={() => {userAns('லோ')}}>லோ</button>
+            <button className='btn' onClick={() => {userAns('லௌ')}}>லௌ</button>
         </div>
         <div>
-            <a href='#' className='btn'>ந்</a>
-            <a href='#' className='btn'>ந</a>
-            <a href='#' className='btn'>நா</a>
-            <a href='#' className='btn'>நி</a>
-            <a href='#' className='btn'>நீ</a>
-            <a href='#' className='btn'>நு</a>
-            <a href='#' className='btn'>நூ</a>
-            <a href='#' className='btn'>நெ</a>
-            <a href='#' className='btn'>நே</a>
-            <a href='#' className='btn'>நை</a>
-            <a href='#' className='btn'>நொ</a>
-            <a href='#' className='btn'>நோ</a>
-            <a href='#' className='btn'>நௌ</a>
+            <button className='btn' onClick={() => {userAns('வ்')}}>வ்</button>
+            <button className='btn' onClick={() => {userAns('வ')}}>வ</button>
+            <button className='btn' onClick={() => {userAns('வா')}}>வா</button>
+            <button className='btn' onClick={() => {userAns('வி')}}>வி</button>
+            <button className='btn' onClick={() => {userAns('வீ')}}>வீ</button>
+            <button className='btn' onClick={() => {userAns('வு')}}>வு</button>
+            <button className='btn' onClick={() => {userAns('வூ')}}>வூ</button>
+            <button className='btn' onClick={() => {userAns('வெ')}}>வெ</button>
+            <button className='btn' onClick={() => {userAns('வே')}}>வே</button>
+            <button className='btn' onClick={() => {userAns('வை')}}>வை</button>
+            <button className='btn' onClick={() => {userAns('வொ')}}>வொ</button>
+            <button className='btn' onClick={() => {userAns('வோ')}}>வோ</button>
+            <button className='btn' onClick={() => {userAns('வௌ')}}>வௌ</button>
         </div>
         <div>
-            <a href='#' className='btn'>ப்</a>
-            <a href='#' className='btn'>ப</a>
-            <a href='#' className='btn'>பா</a>
-            <a href='#' className='btn'>பி</a>
-            <a href='#' className='btn'>பீ</a>
-            <a href='#' className='btn'>பு</a>
-            <a href='#' className='btn'>பூ</a>
-            <a href='#' className='btn'>பெ</a>
-            <a href='#' className='btn'>பே</a>
-            <a href='#' className='btn'>பை</a>
-            <a href='#' className='btn'>பொ</a>
-            <a href='#' className='btn'>போ</a>
-            <a href='#' className='btn'>பௌ</a>
+            <button className='btn' onClick={() => {userAns('ழ்')}}>ழ்</button>
+            <button className='btn' onClick={() => {userAns('ழ')}}>ழ</button>
+            <button className='btn' onClick={() => {userAns('ழா')}}>ழா</button>
+            <button className='btn' onClick={() => {userAns('ழி')}}>ழி</button>
+            <button className='btn' onClick={() => {userAns('ழீ')}}>ழீ</button>
+            <button className='btn' onClick={() => {userAns('ழு')}}>ழு</button>
+            <button className='btn' onClick={() => {userAns('ழூ')}}>ழூ</button>
+            <button className='btn' onClick={() => {userAns('ழெ')}}>ழெ</button>
+            <button className='btn' onClick={() => {userAns('ழே')}}>ழே</button>
+            <button className='btn' onClick={() => {userAns('ழை')}}>ழை</button>
+            <button className='btn' onClick={() => {userAns('ழொ')}}>ழொ</button>
+            <button className='btn' onClick={() => {userAns('ழோ')}}>ழோ</button>
+            <button className='btn' onClick={() => {userAns('ழௌ')}}>ழௌ</button>
         </div>
         <div>
-            <a href='#' className='btn'>ம்</a>
-            <a href='#' className='btn'>ம</a>
-            <a href='#' className='btn'>மா</a>
-            <a href='#' className='btn'>மி</a>
-            <a href='#' className='btn'>மீ</a>
-            <a href='#' className='btn'>மு</a>
-            <a href='#' className='btn'>மூ</a>
-            <a href='#' className='btn'>மெ</a>
-            <a href='#' className='btn'>மே</a>
-            <a href='#' className='btn'>மை</a>
-            <a href='#' className='btn'>மொ</a>
-            <a href='#' className='btn'>மோ</a>
-            <a href='#' className='btn'>மௌ</a>
+            <button className='btn' onClick={() => {userAns('ள்')}}>ள்</button>
+            <button className='btn' onClick={() => {userAns('ள')}}>ள</button>
+            <button className='btn' onClick={() => {userAns('ளா')}}>ளா</button>
+            <button className='btn' onClick={() => {userAns('ளி')}}>ளி</button>
+            <button className='btn' onClick={() => {userAns('ளீ')}}>ளீ</button>
+            <button className='btn' onClick={() => {userAns('ளு')}}>ளு</button>
+            <button className='btn' onClick={() => {userAns('ளூ')}}>ளூ</button>
+            <button className='btn' onClick={() => {userAns('ளெ')}}>ளெ</button>
+            <button className='btn' onClick={() => {userAns('ளே')}}>ளே</button>
+            <button className='btn' onClick={() => {userAns('ளை')}}>ளை</button>
+            <button className='btn' onClick={() => {userAns('ளொ')}}>ளொ</button>
+            <button className='btn' onClick={() => {userAns('ளோ')}}>ளோ</button>
+            <button className='btn' onClick={() => {userAns('ளௌ')}}>ளௌ</button>
         </div>
         <div>
-            <a href='#' className='btn'>ய்</a>
-            <a href='#' className='btn'>ய</a>
-            <a href='#' className='btn'>யா</a>
-            <a href='#' className='btn'>யி</a>
-            <a href='#' className='btn'>யீ</a>
-            <a href='#' className='btn'>யு</a>
-            <a href='#' className='btn'>யூ</a>
-            <a href='#' className='btn'>யெ</a>
-            <a href='#' className='btn'>யே</a>
-            <a href='#' className='btn'>யை</a>
-            <a href='#' className='btn'>யொ</a>
-            <a href='#' className='btn'>யோ</a>
-            <a href='#' className='btn'>யௌ</a>
+            <button className='btn' onClick={() => {userAns('ற்')}}>ற்</button>
+            <button className='btn' onClick={() => {userAns('ற')}}>ற</button>
+            <button className='btn' onClick={() => {userAns('றா')}}>றா</button>
+            <button className='btn' onClick={() => {userAns('றி')}}>றி</button>
+            <button className='btn' onClick={() => {userAns('றீ')}}>றீ</button>
+            <button className='btn' onClick={() => {userAns('று')}}>று</button>
+            <button className='btn' onClick={() => {userAns('றூ')}}>றூ</button>
+            <button className='btn' onClick={() => {userAns('றெ')}}>றெ</button>
+            <button className='btn' onClick={() => {userAns('றே')}}>றே</button>
+            <button className='btn' onClick={() => {userAns('றை')}}>றை</button>
+            <button className='btn' onClick={() => {userAns('றொ')}}>றொ</button>
+            <button className='btn' onClick={() => {userAns('றோ')}}>றோ</button>
+            <button className='btn' onClick={() => {userAns('றௌ')}}>றௌ</button>
         </div>
         <div>
-            <a href='#' className='btn'>ர்</a>
-            <a href='#' className='btn'>ர</a>
-            <a href='#' className='btn'>ரா</a>
-            <a href='#' className='btn'>ரி</a>
-            <a href='#' className='btn'>ரீ</a>
-            <a href='#' className='btn'>ரு</a>
-            <a href='#' className='btn'>ரூ</a>
-            <a href='#' className='btn'>ரெ</a>
-            <a href='#' className='btn'>ரே</a>
-            <a href='#' className='btn'>ரை</a>
-            <a href='#' className='btn'>ரொ</a>
-            <a href='#' className='btn'>ரோ</a>
-            <a href='#' className='btn'>ரௌ</a>
+            <button className='btn' onClick={() => {userAns('ன்')}}>ன்</button>
+            <button className='btn' onClick={() => {userAns('ன')}}>ன</button>
+            <button className='btn' onClick={() => {userAns('னா')}}>னா</button>
+            <button className='btn' onClick={() => {userAns('னி')}}>னி</button>
+            <button className='btn' onClick={() => {userAns('னீ')}}>னீ</button>
+            <button className='btn' onClick={() => {userAns('னு')}}>னு</button>
+            <button className='btn' onClick={() => {userAns('னூ')}}>னூ</button>
+            <button className='btn' onClick={() => {userAns('னெ')}}>னெ</button>
+            <button className='btn' onClick={() => {userAns('னே')}}>னே</button>
+            <button className='btn' onClick={() => {userAns('னை')}}>னை</button>
+            <button className='btn' onClick={() => {userAns('னொ')}}>னொ</button>
+            <button className='btn' onClick={() => {userAns('னோ')}}>னோ</button>
+            <button className='btn' onClick={() => {userAns('னௌ')}}>னௌ</button>
         </div>
-        <div>
-            <a href='#' className='btn'>ல்</a>
-            <a href='#' className='btn'>ல</a>
-            <a href='#' className='btn'>லா</a>
-            <a href='#' className='btn'>லி</a>
-            <a href='#' className='btn'>லீ</a>
-            <a href='#' className='btn'>லு</a>
-            <a href='#' className='btn'>லூ</a>
-            <a href='#' className='btn'>லெ</a>
-            <a href='#' className='btn'>லே</a>
-            <a href='#' className='btn'>லை</a>
-            <a href='#' className='btn'>லொ</a>
-            <a href='#' className='btn'>லோ</a>
-            <a href='#' className='btn'>லௌ</a>
-        </div>
-        <div>
-            <a href='#' className='btn'>வ்</a>
-            <a href='#' className='btn'>வ</a>
-            <a href='#' className='btn'>வா</a>
-            <a href='#' className='btn'>வி</a>
-            <a href='#' className='btn'>வீ</a>
-            <a href='#' className='btn'>வு</a>
-            <a href='#' className='btn'>வூ</a>
-            <a href='#' className='btn'>வெ</a>
-            <a href='#' className='btn'>வே</a>
-            <a href='#' className='btn'>வை</a>
-            <a href='#' className='btn'>வொ</a>
-            <a href='#' className='btn'>வோ</a>
-            <a href='#' className='btn'>வௌ</a>
-        </div>
-        <div>
-            <a href='#' className='btn'>ழ்</a>
-            <a href='#' className='btn'>ழ</a>
-            <a href='#' className='btn'>ழா</a>
-            <a href='#' className='btn'>ழி</a>
-            <a href='#' className='btn'>ழீ</a>
-            <a href='#' className='btn'>ழு</a>
-            <a href='#' className='btn'>ழூ</a>
-            <a href='#' className='btn'>ழெ</a>
-            <a href='#' className='btn'>ழே</a>
-            <a href='#' className='btn'>ழை</a>
-            <a href='#' className='btn'>ழொ</a>
-            <a href='#' className='btn'>ழோ</a>
-            <a href='#' className='btn'>ழௌ</a>
-        </div>
-        <div>
-            <a href='#' className='btn'>ள்</a>
-            <a href='#' className='btn'>ள</a>
-            <a href='#' className='btn'>ளா</a>
-            <a href='#' className='btn'>ளி</a>
-            <a href='#' className='btn'>ளீ</a>
-            <a href='#' className='btn'>ளு</a>
-            <a href='#' className='btn'>ளூ</a>
-            <a href='#' className='btn'>ளெ</a>
-            <a href='#' className='btn'>ளே</a>
-            <a href='#' className='btn'>ளை</a>
-            <a href='#' className='btn'>ளொ</a>
-            <a href='#' className='btn'>ளோ</a>
-            <a href='#' className='btn'>ளௌ</a>
-        </div>
-        <div>
-            <a href='#' className='btn'>ற்</a>
-            <a href='#' className='btn'>ற</a>
-            <a href='#' className='btn'>றா</a>
-            <a href='#' className='btn'>றி</a>
-            <a href='#' className='btn'>றீ</a>
-            <a href='#' className='btn'>று</a>
-            <a href='#' className='btn'>றூ</a>
-            <a href='#' className='btn'>றெ</a>
-            <a href='#' className='btn'>றே</a>
-            <a href='#' className='btn'>றை</a>
-            <a href='#' className='btn'>றொ</a>
-            <a href='#' className='btn'>றோ</a>
-            <a href='#' className='btn'>றௌ</a>
-        </div>
-        <div>
-            <a href='#' className='btn'>ன்</a>
-            <a href='#' className='btn'>ன</a>
-            <a href='#' className='btn'>னா</a>
-            <a href='#' className='btn'>னி</a>
-            <a href='#' className='btn'>னீ</a>
-            <a href='#' className='btn'>னு</a>
-            <a href='#' className='btn'>னூ</a>
-            <a href='#' className='btn'>னெ</a>
-            <a href='#' className='btn'>னே</a>
-            <a href='#' className='btn'>னை</a>
-            <a href='#' className='btn'>னொ</a>
-            <a href='#' className='btn'>னோ</a>
-            <a href='#' className='btn'>னௌ</a>
-        </div>
-    </buttons>
-  )
+    </div>
+
+//     return (
+//         <buttons>
+//             <div className='rows'>   
+//                 <button className='btn'>அ</button> 
+//                 <button className='btn'>ஆ</button>   
+//                 <button className='btn'>இ</button> 
+//                 <button className='btn'>ஈ</button>   
+//                 <button className='btn'>உ</button> 
+//                 <button className='btn'>ஊ</button>   
+//                 <button className='btn'>எ</button> 
+//                 <button className='btn'>ஏ</button>   
+//                 <button className='btn'>ஐ</button> 
+//                 <button className='btn'>ஒ</button>   
+//                 <button className='btn'>ஓ</button> 
+//                 <button className='btn'>ஔ</button>   
+//                 <button className='btn'>ஃ</button> 
+//             </div>
+//             <div className='rows'>   
+//                 <button className='btn'>க</button> 
+//                 <button className='btn'>ங</button>   
+//                 <button className='btn'>ச</button> 
+//                 <button className='btn'>ஞ</button>   
+//                 <button className='btn'>ட</button> 
+//                 <button className='btn'>ண</button>   
+//                 <button className='btn'>த</button> 
+//                 <button className='btn'>ந</button>   
+//                 <button className='btn'>ப</button> 
+//                 <button className='btn'>ம</button>   
+//                 <button className='btn'>ய</button> 
+//                 <button className='btn'>ர</button>   
+//                 <button className='btn'>ல</button> 
+//                 <button className='btn'>வ</button> 
+//                 <button className='btn'>ழ</button>   
+//                 <button className='btn'>ள</button> 
+//                 <button className='btn'>ற</button>   
+//                 <button className='btn'>ன</button>
+//             </div>
+//             <div>   
+//             <button className='btn'>அ</button> 
+//                 <button className='btn'>ஆ</button>   
+//                 <button className='btn'>இ</button> 
+//                 <button className='btn'>ஈ</button>   
+//                 <button className='btn'>உ</button> 
+//                 <button className='btn'>ஊ</button>   
+//                 <button className='btn'>எ</button> 
+//                 <button className='btn'>ஏ</button>   
+//                 <button className='btn'>ஐ</button> 
+//                 <button className='btn'>ஒ</button>   
+//                 <button className='btn'>ஓ</button> 
+//                 <button className='btn'>ஔ</button>   
+//                 <button className='btn'>ஃ</button> 
+//                 <button className='btn'>ஐ</button> 
+//                 <button className='btn'>ஒ</button>   
+//                 <button className='btn'>ஓ</button> 
+//                 <button className='btn'>ஔ</button>   
+//                 <button className='btn'>ஃ</button>
+//             </div>
+//             <div>   
+//             <button className='btn'>அ</button> 
+//                 <button className='btn'>ஆ</button>   
+//                 <button className='btn'>இ</button> 
+//                 <button className='btn'>ஈ</button>   
+//                 <button className='btn'>உ</button> 
+//                 <button className='btn'>ஊ</button>   
+//                 <button className='btn'>எ</button> 
+//                 <button className='btn'>ஏ</button>   
+//                 <button className='btn'>ஐ</button> 
+//                 <button className='btn'>ஒ</button>   
+//                 <button className='btn'>ஓ</button> 
+//                 <button className='btn'>ஔ</button>   
+//                 <button className='btn'>ஃ</button> 
+//                 <button className='btn'>ஐ</button> 
+//                 <button className='btn'>ஒ</button>   
+//                 <button className='btn'>ஓ</button> 
+//                 <button className='btn'>ஔ</button>   
+//                 <button className='btn'>ஃ</button> 
+//             </div>
+//             <div>   
+//             <button className='btn'>அ</button> 
+//                 <button className='btn'>ஆ</button>   
+//                 <button className='btn'>இ</button> 
+//                 <button className='btn'>ஈ</button>   
+//                 <button className='btn'>உ</button> 
+//                 <button className='btn'>ஊ</button>   
+//                 <button className='btn'>எ</button> 
+//                 <button className='btn'>ஏ</button>   
+//                 <button className='btn'>ஐ</button> 
+//                 <button className='btn'>ஒ</button>   
+//                 <button className='btn'>ஓ</button> 
+//                 <button className='btn'>ஔ</button>   
+//                 <button className='btn'>ஃ</button> 
+//                 <button className='btn'>ஐ</button> 
+//                 <button className='btn'>ஒ</button>   
+//                 <button className='btn'>ஓ</button> 
+//                 <button className='btn'>ஔ</button>   
+//                 <button className='btn'>ஃ</button> 
+//             </div>
+//             <div>   
+//                 <button className='btn'>அ</button> 
+//                 <button className='btn'>ஆ</button>   
+//                 <button className='btn'>இ</button> 
+//                 <button className='btn'>ஈ</button>   
+//                 <button className='btn'>உ</button> 
+//                 <button className='btn'>ஊ</button>   
+//                 <button className='btn'>எ</button> 
+//                 <button className='btn'>ஏ</button>   
+//                 <button className='btn'>ஐ</button> 
+//                 <button className='btn'>ஒ</button>   
+//                 <button className='btn'>ஓ</button> 
+//                 <button className='btn'>ஔ</button>   
+//                 <button className='btn'>ஃ</button> 
+//                 <button className='btn'>ஐ</button> 
+//                 <button className='btn'>ஒ</button>   
+//                 <button className='btn'>ஓ</button> 
+//                 <button className='btn'>ஔ</button>   
+//                 <button className='btn'>ஃ</button> 
+//             </div>
+//         </buttons>
+    
+//   )
+    )
 }
 
 export default Buttons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

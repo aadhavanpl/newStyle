@@ -1,14 +1,16 @@
 import React from 'react'
 import Buttons from './components/buttons/Buttons'
 import Nav from './components/nav/Nav'
-
-var finalAns = "";
-var userAns = "";
+import Result from './components/result/Result'
+import "./index.css"
 
 const App = () => {
   return (
     <>
-        <Buttons />
+        <div className='top'>
+          <Result />
+          <Buttons />
+        </div>
         <Nav />
     </>
   )

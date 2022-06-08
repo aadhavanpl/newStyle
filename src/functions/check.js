@@ -1,12 +1,15 @@
-import React from 'react'
-import userAns from "../App"
-import finalAns from "../App"
+import { usersAns, finalAns} from "../components/buttons/Buttons"
+import newWord from "./newWord"
 
-function check(userAns, finalAns){
-    if (userAns === finalAns) {
-        console.log("hello");
-        return true;
+function check(){
+    if (usersAns.value === finalAns.value) {
+        console.log("Correct")
+        usersAns.value = ""
+        newWord()
+    }
+    else {
+        console.log("Incorrect")
+        usersAns.value = ""
     }
 }
-
 export default check
