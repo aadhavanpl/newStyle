@@ -4,7 +4,6 @@ const Result = () => {
     return (
         <section className=''>
             <div className='userAns'>
-                hell
             </div>
         </section>
     )
