@@ -3,8 +3,7 @@ import React from 'react'
 const Result = () => {
     return (
         <section className=''>
-            <div className='userAns'>
-            </div>
+            <div className='userAns'></div>
         </section>
     )
 }
