@@ -11,13 +11,10 @@ function check(){
         //pulse color
         document.body.style.backgroundColor = "green";
         setTimeout(function() {
-            document.body.style.backgroundColor = "lightcoral";
-            }, 1000)
-
-        setTimeout(function() {
+            document.body.style.backgroundColor = "#222831";
             document.getElementById("ans").innerHTML = usersAns.value
             document.getElementById("check").innerHTML = "";
-        }, 2000);
+            }, 1500)
     }
     else {
         console.log("Incorrect")
@@ -27,13 +24,10 @@ function check(){
         //pulse color
         document.body.style.backgroundColor = "red";
         setTimeout(function() {
-            document.body.style.backgroundColor = "lightcoral";
-            }, 1000)
-            
-        setTimeout(function(){
+            document.body.style.backgroundColor = "#222831";
             document.getElementById("ans").innerHTML = usersAns.value
             document.getElementById("check").innerHTML = "";
-        }, 2000);
+            }, 1500)
     }
 }
 export default check

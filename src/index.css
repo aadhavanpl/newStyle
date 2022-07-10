@@ -1,11 +1,13 @@
 body {
-    background-color: lightcoral;
+    font-family: 'Poppins', sans-serif;
+    background-color: #222831;
+    color: #EEEEEE;
 }
 
 .top {
     display: grid;
-    grid-template-columns: 20% 65%;
-    gap: 15%;
+    grid-template-columns: 40% 52%;
+    gap: 8%;
 }
 
 #root {
@@ -13,12 +15,8 @@ body {
     flex-direction: column;
 }
 
-.highlight {
-    background: red;
-}
-
 #answerDefaultValue, #checkerDefaultValue {
-    font-size: 35px;
+    font-size: 45px;
 }
 
 #ans, #check {
