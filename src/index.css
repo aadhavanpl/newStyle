@@ -4,10 +4,10 @@ body {
     color: #EEEEEE;
 }
 
-.top {
-    display: grid;
-    grid-template-columns: 40% 52%;
-    gap: 8%;
+
+#float {
+    float: left;
+    padding: 10px;
 }
 
 #root {
@@ -20,7 +20,7 @@ body {
 }
 
 #ans, #check {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 #answerDefaultValue, #ans {
@@ -29,4 +29,9 @@ body {
 
 #checkerDefaultValue, #check {
     display: inline;
+}
+
+#reveal {
+    color: red;
+    font-size: 15px;
 }

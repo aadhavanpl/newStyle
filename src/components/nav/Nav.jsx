@@ -17,12 +17,12 @@ import backspace from "../../functions/backspace"
 const Nav = () => {
   return (
     <nav>
-      <a href="#" onClick={() => {check()}}><BsCheck /></a>
       <a href="#" onClick={() => {playAudio()}}><BsFillPlayFill /></a>
       <a href="#" onClick={() => {stopAudio()}}><BsFillPauseFill /></a>
       <a href="#" onClick={() => {newWord()}}><RiArrowRightSLine /></a>
       <a href="#" onClick={() => {reveal()}}><BiShowAlt /></a>
       <a href="#" onClick={() => {backspace()}}><HiBackspace /></a>
+      <a href="#" onClick={() => {check()}}><BsCheck /></a>
     </nav>
   )
 }

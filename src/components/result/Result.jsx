@@ -11,14 +11,13 @@ const Result = () => {
     return (
         <div class="userAns">
             <div id="answer">
-                <div id="answerDefaultValue">Your Answer: </div>
                 <div id="ans"></div>
             </div>
             <div id="checker">
-                <div id="checkerDefaultValue">Result: </div>
                 <div id="check"></div>
                 <div id="logo"></div>
             </div>
+            <div id="reveal"></div>
         </div>
     )
 }

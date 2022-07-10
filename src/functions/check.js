@@ -5,7 +5,7 @@ function check(){
     if (usersAns.value === finalAns.value) {
         console.log("Correct")
         usersAns.value = ""
-        document.getElementById("check").innerHTML = "Correct"
+        document.getElementById("check").innerHTML = "சரி"
         newWord()
         
         //pulse color
@@ -19,7 +19,7 @@ function check(){
     else {
         console.log("Incorrect")
         usersAns.value = ""
-        document.getElementById("check").innerHTML = "Incorrect"
+        document.getElementById("check").innerHTML = "தவறு"
 
         //pulse color
         document.body.style.backgroundColor = "red";
