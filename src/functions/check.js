@@ -7,7 +7,14 @@ function check(){
         usersAns.value = ""
         document.getElementById("check").innerHTML = "Correct"
         newWord()
-        setTimeout(function(){
+        
+        //pulse color
+        document.body.style.backgroundColor = "green";
+        setTimeout(function() {
+            document.body.style.backgroundColor = "lightcoral";
+            }, 1000)
+
+        setTimeout(function() {
             document.getElementById("ans").innerHTML = usersAns.value
             document.getElementById("check").innerHTML = "";
         }, 2000);
@@ -16,6 +23,13 @@ function check(){
         console.log("Incorrect")
         usersAns.value = ""
         document.getElementById("check").innerHTML = "Incorrect"
+
+        //pulse color
+        document.body.style.backgroundColor = "red";
+        setTimeout(function() {
+            document.body.style.backgroundColor = "lightcoral";
+            }, 1000)
+            
         setTimeout(function(){
             document.getElementById("ans").innerHTML = usersAns.value
             document.getElementById("check").innerHTML = "";

@@ -7,3 +7,28 @@ body {
     grid-template-columns: 20% 65%;
     gap: 15%;
 }
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+.highlight {
+    background: red;
+}
+
+#answerDefaultValue, #checkerDefaultValue {
+    font-size: 35px;
+}
+
+#ans, #check {
+    font-size: 35px;
+}
+
+#answerDefaultValue, #ans {
+    display: inline;
+}
+
+#checkerDefaultValue, #check {
+    display: inline;
+}

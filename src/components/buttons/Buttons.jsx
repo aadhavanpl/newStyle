@@ -3,9 +3,26 @@ import "./buttons.css"
 import check from "../../functions/check"
 import userAns from "../../functions/userAns"
 import randomWords from '../../functions/random'
+import Button from './Button';
 
 export var usersAns = {value: ""}
 export var finalAns = {value: randomWords()}
+
+// let letters1 = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n'];
+// let letters2 = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n'];
+
+// const Buttons = () => {
+//     return (
+//         <>
+//             <div className="allButtons">
+//                 {letters1.map((letter, ind) => {return <Button key={ind} text={letter}/>})}
+//             </div>
+//             <div className="allButtons">
+//                 {letters2.map((letter, ind) => {return <Button key={ind} text={letter}/>})}
+//             </div>
+//         </>
+//     )
+// }
 
 const Buttons = () => {
   return (

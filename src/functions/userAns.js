@@ -5,4 +5,5 @@ function userAns(input) {
     console.log(usersAns.value)
     document.getElementById("ans").innerHTML = usersAns.value
 }
+
 export default userAns
